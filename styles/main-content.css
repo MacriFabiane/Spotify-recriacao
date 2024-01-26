@@ -125,13 +125,14 @@
     overflow-y: auto;
   }
   
-  /* .offer__scroll-container::-webkit-scrollbar {
+  /*esses últimos 2 fazem a barra de rolagem da navegação ficar invisível*/
+  .offer__scroll-container::-webkit-scrollbar {
     width: 1px;
   }
   
   .offer__scroll-container::-webkit-scrollbar-thumb {
     background-color: transparent;
-  } */
+  }
   /* FIM SCROLL */
   
   .offer__list-item {
@@ -142,11 +143,11 @@
     gap: 16px;
     margin-bottom: 16px;
   
-    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA
+    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
     display: grid;
     gap: 16px;
     grid-gap: 32px;
-    margin: 0 auto; */
+    margin: 0 auto;
   }
   
   .cards {
@@ -319,9 +320,9 @@
     transition: all ease 0.4s;
   }
   
-  .artist-card:hover .play .fa-play {
+  .artist-card:hover .play .fa-play { /*botão play do artista*/
     opacity: 1;
-    transform: translateY(-20px);
+    transform: translateY(-20px); /*faz movimento de subir*/
   }
   
   .play .fa-play:hover {
